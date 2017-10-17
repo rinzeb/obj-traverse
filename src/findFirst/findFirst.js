@@ -1,4 +1,8 @@
-import isEqual from 'lodash.isequal';
+//import isEqual from 'lodash.isequal';
+
+isEqual = function(a, b) {
+  return a.indexOf(b) >= 0);
+};
 
 /* It iterates through each deep nested object and if finds object that has prop and value specified in objToFindBy
 argument, it stops the walk and returns the object. If none is found, it returns false. */
